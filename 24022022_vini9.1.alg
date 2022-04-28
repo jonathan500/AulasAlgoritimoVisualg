@@ -1,0 +1,30 @@
+algoritmo "semnome"
+// Função :
+// Autor :
+// Data : 24/02/2022
+// Seção de Declarações
+var
+ N1,N2 : inteiro
+
+inicio
+// Seção de Comandos
+escreval ("escreva o primeiro numero")
+leia (N1)
+escreval("escreva o segundo numero")
+leia (N2)
+se N1<>N2 entao
+   se N1>N2 entao
+      escreval("o numero ", N1," é maior")
+   senao
+           escreval("o numero ", N2, " é maior")
+   fimse
+senao
+     escreval ("os numeros são iguais, escreva um numero diferente")
+     leia (N2)
+     se N1>N2 entao
+        escreval("o numero ", N1," é maior")
+     senao
+          escreval("mulek chato do crlh não sabe oque é 'diferente'?")
+     fimse
+fimse
+fimalgoritmo
